@@ -73,3 +73,11 @@ commands:
     permission: pserveressentials.command.nickname
     description: "Sets a custom nickname."
     usage: "/nickname <name>"
+  signcmd:
+    permission: pserveressentials.command.signcmd
+    description: "Assigns a command to a sign."
+    usage: "/signcmd <command>"
+  disguise:
+    permission: pserveressentials.command.disguise
+    description: "Disguises a player as a mob."
+    usage: "/disguise <player> <entity>"
