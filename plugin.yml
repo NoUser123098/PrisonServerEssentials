@@ -149,3 +149,7 @@ commands:
     permission: pserveressentials.command.kit
     description: "Gives a kit to a player."
     usage: "/kit <name> [player]"
+  rankup:
+    permission: pserveressentials.command.rankup
+    description: "Ranks up to the next mine."
+    usage: "/rankup [rank]"
