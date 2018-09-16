@@ -61,3 +61,15 @@ commands:
     permission: pserveressentials.command.makewarp
     description: "Creates a warp."
     usage: "/makewarp <name>"
+  delwarp:
+    permission: pserveressentials.command.delwarp
+    description: "Deletes a warp."
+    usage: "/delwarp <name>"
+  warp:
+    permission: pserveressentials.command.warp
+    description: "Warps you to a location."
+    usage: "/warp <name>"
+  nickname:
+    permission: pserveressentials.command.nickname
+    description: "Sets a custom nickname."
+    usage: "/nickname <name>"
