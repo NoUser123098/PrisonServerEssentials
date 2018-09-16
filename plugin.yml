@@ -1,0 +1,59 @@
+name: PrisonServerEssentials
+main: NoUser123098\PrisonServerEssentials\main
+version: 0.0.1
+author: NoUser123098
+api: [3.0.0]
+load: POSTWORLD
+commands:
+  makerank:
+    permission: pserveressentials.command.makerank
+    description: "Creates a rank."
+    usage: "/makerank <name> <format>"
+  setrank:
+    permission: pserveressentials.command.setrank
+    description: "Sets a player's rank."
+    usage: "/setrank <player>"
+  setppermission:
+    permission: pserveressentials.command.setppermission
+    description: "Sets a permission for a player."
+    usage: "/setppermission <player> <permission>"
+  setgpermission:
+    permission: pserveressentials.command.setgpermission
+    description: "Sets a permission for a group."
+    usage: "/setgpermission <group> <permission>"
+  balance:
+    permission: pserveressentials.command.balance
+    description: "Checks your balance."
+    usage: "/balance"
+  givemoney:
+    permission: pserveressentials.command.givemoney
+    description: "Gives a player an amount of money."
+    usage: "/givemoney <player> <amount>"
+  setmoney:
+    permission: pserveressentials.command.setmoney
+    description: "Sets a player's amount of money."
+    usage: "/setmoney <player> <amount>"
+  makemine:
+    permission: pserveressentials.command.makemine
+    description: "Sets an area as a prison mine."
+    usage: "/makemine <name>"
+  setmine:
+    permission: pserveressentials.command.setmine
+    description: "Sets the blocks a mine will contain."
+    usage: "/setmine <name> <id> <percent> etc..."
+  resetmine:
+    permission: pserveressentials.command.resetmine
+    description: "Resets a mine."
+    usage: "/resetmine <name>"
+  resetallmines:
+    permission: pserveressentials.command.resetallmines
+    description: "Resets all mines."
+    usage: "/resetallmines"
+  protectedarea:
+    permission: pserveressentials.command.protectarea
+    description: "Protect an area."
+    usage: "/protectedarea <pos1> <pos2> <name>"
+  delprotected:
+    permission: pserveressentials.command.deleteprotectedarea
+    description: "Delete an area's protection."
+    usage: "/delprotected <name>"
