@@ -137,3 +137,15 @@ commands:
     permission: pserveressentials.command.unlockchest
     description: "Unlocks the clicked locked chest."
     usage: "/unlockchest"
+  joinmessage:
+    permission: pserveressentials.command.joinmessage
+    description: "Sets the player join message."
+    usage: "/joinmessage <message>"
+  makekit:
+    permission: pserveressentials.command.makekit
+    description: "Creates a kit."
+    usage: "/makekit <name> <id1> <id2> etc..."
+  kit:
+    permission: pserveressentials.command.kit
+    description: "Gives a kit to a player."
+    usage: "/kit <name> [player]"
