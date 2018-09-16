@@ -2,7 +2,7 @@ name: PrisonServerEssentials
 main: NoUser123098\PrisonServerEssentials\main
 version: 0.0.1
 author: NoUser123098
-api: [3.0.0]
+api: [3.2.3]
 load: POSTWORLD
 commands:
   makerank:
@@ -105,3 +105,35 @@ commands:
     permission: pserveressentials.command.autocmd
     description: "Runs a command automatically."
     usage: "/autocmd <command> <seconds>"
+  broadcast:
+    permission: pserveressentials.command.broadcast
+    description: "Broadcasts a message."
+    usage: "/broadcast <message>"
+  register:
+    permission: pserveressentials.command.register
+    description: "Registers a player."
+    usage: "/register <password>"
+  login:
+    permission: pserveressentials.command.login
+    description: "Logs a player in."
+    usage: "/login <password>"
+  makestatue:
+    permission: pserveressentials.command.makestatue
+    description: "Creates a statue from an entity."
+    usage: "/makestatue <nametag> [mob]"
+  vanish:
+    permission: pserveressentials.command.vanish
+    description: "Makes a player invisible."
+    usage: "/vanish [player]"
+  enterlottery:
+    permission: pserveressentials.command.enterlottery
+    description: "Enters the lottery with the selected numbers."
+    usage: "/enterlottery <num1> <num2> <num3> <num4> <num5>"
+  lockchest:
+    permission: pserveressentials.command.lockchest
+    description: "Allows only one player to access the clicked chest."
+    usage: "/lockchest"
+  unlockchest:
+    permission: pserveressentials.command.unlockchest
+    description: "Unlocks the clicked locked chest."
+    usage: "/unlockchest"
