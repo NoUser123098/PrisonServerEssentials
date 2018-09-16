@@ -51,9 +51,13 @@ commands:
     usage: "/resetallmines"
   protectedarea:
     permission: pserveressentials.command.protectarea
-    description: "Protect an area."
+    description: "Protects an area."
     usage: "/protectedarea <pos1> <pos2> <name>"
   delprotected:
-    permission: pserveressentials.command.deleteprotectedarea
-    description: "Delete an area's protection."
+    permission: pserveressentials.command.delprotected
+    description: "Deletes an area's protection."
     usage: "/delprotected <name>"
+  makewarp:
+    permission: pserveressentials.command.makewarp
+    description: "Creates a warp."
+    usage: "/makewarp <name>"
