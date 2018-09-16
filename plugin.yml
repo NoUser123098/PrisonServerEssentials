@@ -81,3 +81,27 @@ commands:
     permission: pserveressentials.command.disguise
     description: "Disguises a player as a mob."
     usage: "/disguise <player> <entity>"
+  display:
+    permission: pserveressentials.command.display
+    description: "Displays an item on a slab or inside glass."
+    usage: "/display"
+  checkinv:
+    permission: pserveressentials.command.checkinv
+    description: "Look into another player's inventory."
+    usage: "/checkinv <player>"
+  claimplot:
+    permission: pserveressentials.command.claimplot
+    description: "Claims a plot."
+    usage: "/claimplot"
+  unclaimplot:
+    permission: pserveressentials.command.unclaimplot
+    description: "Unclaims a plot."
+    usage: "/unclaimplot"
+  createplot:
+    permission: pserveressentials.command.createplot
+    description: "Creates a plot world."
+    usage: "/createplot <name>"
+  autocmd:
+    permission: pserveressentials.command.autocmd
+    description: "Runs a command automatically."
+    usage: "/autocmd <command> <seconds>"
