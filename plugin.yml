@@ -248,3 +248,24 @@ permissions:
       pserveressentials.command.vanish:
         description: "The vanish command permission."
         default: op
+      pserveressentials.command.enterlottery:
+        description: "The enterlottery command permission."
+        default: true
+      pserveressentials.command.lockchest:
+        description: "The lockchest command permission."
+        default: true
+      pserveressentials.command.unlockchest:
+        description: "The unlockchest command permission."
+        default: true
+      pserveressentials.command.joinmessage:
+        description: "The joinmessage command permission."
+        default: op
+      pserveressentials.command.makekit:
+        description: "The makekit command permission."
+        default: op
+      pserveressentials.command.kit:
+        description: "The kit command permission."
+        default: true
+      pserveressentials.command.rankup:
+        description: "The rankup command permission."
+        default: true
