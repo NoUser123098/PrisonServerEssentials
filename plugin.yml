@@ -283,3 +283,9 @@ permissions:
       pserveressentials.command.deltext:
         description: "The deltext command permission."
         default: op
+      pserveressentials.makeshop:
+        description: "The shop creating permission."
+        default: op
+      pserveressentials.delshop:
+        description: "The shop destroying permission."
+        default: op
