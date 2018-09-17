@@ -49,10 +49,10 @@ commands:
     permission: pserveressentials.command.resetallmines
     description: "Resets all mines."
     usage: "/resetallmines"
-  protectedarea:
-    permission: pserveressentials.command.protectarea
+  makeprotected:
+    permission: pserveressentials.command.makeprotected
     description: "Protects an area."
-    usage: "/protectedarea <pos1> <pos2> <name>"
+    usage: "/makeprotected <pos1> <pos2> <name>"
   delprotected:
     permission: pserveressentials.command.delprotected
     description: "Deletes an area's protection."
@@ -160,4 +160,91 @@ permissions:
     children:
       pserveressentials.command.makerank:
         description: "The makerank command permission."
-        default: op;
+        default: op
+      pserveressentials.command.setrank:
+        description: "The setrank command permission."
+        default: op
+      pserveressentials.command.setppermission:
+        description: "The setppermission command permission."
+        default: op
+      pserveressentials.command.setgpermission:
+        description: "The setgpermission command permission."
+        default: op
+      pserveressentials.command.balance:
+        description: "The balance permission."
+        default: true
+      pserveressentials.command.givemoney:
+        description: "The givemoney command permission."
+        default: op
+      pserveressentials.command.setmoney:
+        description: "The setmoney command permission."
+        default: op
+      pserveressentials.command.makemine:
+        description: "The makemine command permission."
+        default: op
+      pserveressentials.command.setmine:
+        description: "The setmine command permission."
+        default: op
+      pserveressentials.command.resetmine:
+        description: "The resetmine command permission."
+        default: op
+      pserveressentials.command.resetallmines:
+        description: "The resetallmines command permission."
+        default: op
+      pserveressentials.command.makeprotected:
+        description: "The makeprotected command permission."
+        default: op
+      pserveressentials.command.delprotected:
+        description: "The delprotected command permission."
+        default: op
+      pserveressentials.command.makewarp:
+        description: "The makewarp command permission."
+        default: op
+      pserveressentials.command.delwarp:
+        description: "The delwarp command permission."
+        default: op
+      pserveressentials.command.warp:
+        description: "The warp command permission."
+        default: true
+      pserveressentials.command.nickname:
+        description: "The nickname command permission."
+        default: op
+      pserveressentials.command.signcmd:
+        description: "The signcmd command permission."
+        default: op
+      pserveressentials.command.disguise:
+        description: "The disguise command permission."
+        default: op
+      pserveressentials.command.display:
+        description: "The display command permission."
+        default: op
+      pserveressentials.command.checkinv:
+        description: "The checkinv command permission."
+        default: op
+      pserveressentials.command.claimplot:
+        description: "The claimplot command permission."
+        default: true
+      pserveressentials.command.unclaimplot:
+        description: "The unclaimplot command permission."
+        default: true
+      pserveressentials.command.createplot:
+        description: "The createplot command permission."
+        default: op
+      pserveressentials.command.autocmd:
+        description: "The autocmd command permission."
+        default: op
+      pserveressentials.command.broadcast:
+        description: "The broadcast command permission."
+        default: op
+      pserveressentials.command.register:
+        description: "The register command permission."
+        default: true
+      pserveressentials.command.login:
+        description: "The login command permission."
+        default: true
+      pserveressentials.command.makestatue:
+        description: "The makestatue command permission."
+        default: op
+      pserveressentials.command.vanish:
+        description: "The vanish command permission."
+        default: op
