@@ -1,0 +1,31 @@
+version: "0.0.1"
+enable-multiworld-chat: false
+groups:
+  Guest:
+    chat: "&8[&7Guest&8] &f{display_name} &7> &f{msg}"
+    nametag: "&8[&7Guest&8] &f{display_name}"
+    worlds: []
+  Moderator:
+    chat: "&9[&bModerator&9] &f{display_name} &7> &f{msg}"
+    nametag: "&9[&bModerator&9] &f{display_name}"
+    worlds: []
+  HeadModerator:
+    chat: "&9[&bHeadModerator&9] &f{display_name} &7> &f{msg}"
+    nametag: "&9[&bHeadModerator&9] &f{display_name}"
+    worlds: []
+  Admin:
+    chat: "&c[&4Admin&c] &f{display_name} &7> &f{msg}"
+    nametag: "&c[&4Admin&c] &f{display_name}"
+    worlds: []
+  HeadAdmin:
+    chat: "&c[&4HeadAdmin&c] &f{display_name} &7> &f{msg}"
+    nametag: "&c[&4HeadAdmin&c] &f{display_name}"
+    worlds: []
+  CoOwner:
+    chat: "&9[&1CoOwner&9] &f{display_name} &7> &f{msg}"
+    nametag: "&9[&1CoOwner&9] &f{display_name}"
+    worlds: []
+  Owner:
+    chat: "&4&l[Owner] &f{display_name} &r&7> &f{msg}"
+    nametag: "&4&l[Owner] &f{display_name}"
+    worlds: []
