@@ -153,6 +153,14 @@ commands:
     permission: pserveressentials.command.rankup
     description: "Ranks up to the next mine."
     usage: "/rankup [rank]"
+  maketext:
+    permission: pserveressentials.command.maketext
+    description: "Makes floating text at current position or specified coordinates."
+    usage: "/maketext <name> <text> [pos1] [pos2]"
+  deltext:
+    permission: pserveressentials.command.deltext
+    description: "Deletes floating text."
+    usage: "/deltext <name>"
 permissions:
   pserveressentials.*:
     default: op
@@ -269,3 +277,9 @@ permissions:
       pserveressentials.command.rankup:
         description: "The rankup command permission."
         default: true
+      pserveressentials.command.maketext:
+        description: "The maketext command permission."
+        default: op
+      pserveressentials.command.deltext:
+        description: "The deltext command permission."
+        default: op
