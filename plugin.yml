@@ -153,3 +153,11 @@ commands:
     permission: pserveressentials.command.rankup
     description: "Ranks up to the next mine."
     usage: "/rankup [rank]"
+permissions:
+  pserveressentials.*:
+    default: op
+    description: "Gives all permissions."
+    children:
+      pserveressentials.command.makerank:
+        description: "The makerank command permission."
+        default: op;
