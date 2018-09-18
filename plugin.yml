@@ -162,7 +162,7 @@ commands:
     description: "Deletes floating text."
     usage: "/deltext <name>"
 permissions:
-  pserveressentials.*:
+  pserveressentials:
     default: op
     description: "Gives all permissions."
     children:
@@ -289,3 +289,6 @@ permissions:
       pserveressentials.delshop:
         description: "The shop destroying permission."
         default: op
+    pserveressentials.color:
+      description: "The colored chat permission."
+      default: op
