@@ -5,6 +5,10 @@ groups:
     chat: "&8[&7Guest&8] &f{display_name} &7> &f{msg}"
     nametag: "&8[&7Guest&8] &f{display_name}"
     worlds: []
+  Member:
+    chat: "&7[Member] &f{display_name} &7> &f{msg}"
+    nametag: ""
+    worlds: []
   Moderator:
     chat: "&9[&bModerator&9] &f{display_name} &7> &f{msg}"
     nametag: "&9[&bModerator&9] &f{display_name}"
