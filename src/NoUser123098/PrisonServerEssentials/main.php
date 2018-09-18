@@ -15,3 +15,8 @@ use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat;
 use pocketmine\permission\DefaultPermissions;
 use pocketmine\utils\UUID;
+
+class main extends PluginBase{
+  
+}
+?>
